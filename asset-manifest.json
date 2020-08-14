@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-study/tree/master/01-clone-nomad/static/css/main.13dc0a3c.chunk.css",
-    "main.js": "/react-study/tree/master/01-clone-nomad/static/js/main.a6e4edc4.chunk.js",
-    "main.js.map": "/react-study/tree/master/01-clone-nomad/static/js/main.a6e4edc4.chunk.js.map",
-    "runtime-main.js": "/react-study/tree/master/01-clone-nomad/static/js/runtime-main.9a56dcb1.js",
-    "runtime-main.js.map": "/react-study/tree/master/01-clone-nomad/static/js/runtime-main.9a56dcb1.js.map",
-    "static/js/2.e45094f4.chunk.js": "/react-study/tree/master/01-clone-nomad/static/js/2.e45094f4.chunk.js",
-    "static/js/2.e45094f4.chunk.js.map": "/react-study/tree/master/01-clone-nomad/static/js/2.e45094f4.chunk.js.map",
-    "index.html": "/react-study/tree/master/01-clone-nomad/index.html",
-    "precache-manifest.2bcf0d1d20d53bbea294d68e736f1d30.js": "/react-study/tree/master/01-clone-nomad/precache-manifest.2bcf0d1d20d53bbea294d68e736f1d30.js",
-    "service-worker.js": "/react-study/tree/master/01-clone-nomad/service-worker.js",
-    "static/css/main.13dc0a3c.chunk.css.map": "/react-study/tree/master/01-clone-nomad/static/css/main.13dc0a3c.chunk.css.map",
-    "static/js/2.e45094f4.chunk.js.LICENSE.txt": "/react-study/tree/master/01-clone-nomad/static/js/2.e45094f4.chunk.js.LICENSE.txt"
+    "main.css": "/react-study/01-clone-nomad/static/css/main.13dc0a3c.chunk.css",
+    "main.js": "/react-study/01-clone-nomad/static/js/main.a6e4edc4.chunk.js",
+    "main.js.map": "/react-study/01-clone-nomad/static/js/main.a6e4edc4.chunk.js.map",
+    "runtime-main.js": "/react-study/01-clone-nomad/static/js/runtime-main.323f8048.js",
+    "runtime-main.js.map": "/react-study/01-clone-nomad/static/js/runtime-main.323f8048.js.map",
+    "static/js/2.e45094f4.chunk.js": "/react-study/01-clone-nomad/static/js/2.e45094f4.chunk.js",
+    "static/js/2.e45094f4.chunk.js.map": "/react-study/01-clone-nomad/static/js/2.e45094f4.chunk.js.map",
+    "index.html": "/react-study/01-clone-nomad/index.html",
+    "precache-manifest.80eb5fedfea92d686cb7bdddff8d49e8.js": "/react-study/01-clone-nomad/precache-manifest.80eb5fedfea92d686cb7bdddff8d49e8.js",
+    "service-worker.js": "/react-study/01-clone-nomad/service-worker.js",
+    "static/css/main.13dc0a3c.chunk.css.map": "/react-study/01-clone-nomad/static/css/main.13dc0a3c.chunk.css.map",
+    "static/js/2.e45094f4.chunk.js.LICENSE.txt": "/react-study/01-clone-nomad/static/js/2.e45094f4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9a56dcb1.js",
+    "static/js/runtime-main.323f8048.js",
     "static/js/2.e45094f4.chunk.js",
     "static/css/main.13dc0a3c.chunk.css",
     "static/js/main.a6e4edc4.chunk.js"
