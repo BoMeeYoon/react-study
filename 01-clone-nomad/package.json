@@ -16,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,9 +35,10 @@
       "last 1 safari version"
     ]
   },
-  "description": "- 기간: 8/11(화) - 8/13(목)",
+  "description": "- 기간: 8/11(화) - 8/14(금)",
   "main": "index.js",
   "devDependencies": {},
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://bomeeyoon.github.io/react-study/tree/master/01-clone-nomad"
 }
