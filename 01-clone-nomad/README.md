@@ -43,7 +43,9 @@
     };
     add() {
     this.setState({
-    count: this.state.count + 1,
+    count: this.state.count+1,
+    setState 를 통해 state를 변경해야 하는데
+    ++로 하면 자신을 바꿔주기 때문에 바로 접근해 변경하기 때문에 안됨
     });
     }
     minus() {

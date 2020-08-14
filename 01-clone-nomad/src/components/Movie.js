@@ -4,20 +4,20 @@ import { Link } from "react-router-dom";
 
 function Movie({ id, year, title, summary, poster, genres }) {
   return (
-    <Link
-      to={{
-        pathname: `/movie/${id}`,
-        state: {
-          year,
-          title,
-          summary,
-          poster,
-          genres,
-        },
-      }}
-    >
-      <div className="movie">
-        <img src={poster} alt={title} title={title} />
+    <div className="movie">
+      <img src={poster} alt={title} title={title} />
+      <Link
+        to={{
+          pathname: `/movie/${id}`,
+          state: {
+            year,
+            title,
+            summary,
+            poster,
+            genres,
+          },
+        }}
+      >
         <div className="movie__data">
           <h3 className="movie__title">{title}</h3>
           <h5 className="year">{year}</h5>
@@ -30,8 +30,9 @@ function Movie({ id, year, title, summary, poster, genres }) {
           </ul>
           <p className="movie__summary">{summary}</p>
         </div>
+        </Link>
       </div>
-    </Link>
+    
   );
 }
 

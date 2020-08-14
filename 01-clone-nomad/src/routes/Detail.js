@@ -2,16 +2,18 @@ import React from "react";
 
 class Detail extends React.Component {
   componentDidMount() {
+    console.log("com");
     const { location, history } = this.props;
     if (location.state === undefined) {
       history.push("/");
     }
   }
   render() {
+    console.log(this.props, "render");
     const { location } = this.props;
     if (location.state) {
       // const { state } = location;
-      // console.log(state);
+      console.log(location.state);
       return (
         <div>
           <img

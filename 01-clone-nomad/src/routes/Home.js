@@ -17,8 +17,8 @@ class Home extends React.Component {
     } = await axios.get(this.URL);
     this.setState({ movies, isLoading: false });
   }
-  async componentDidMount() {
-    await this.getMovies();
+ componentDidMount() {
+   this.getMovies();
   }
   render() {
     const { isLoading, movies } = this.state;
