@@ -1,9 +1,8 @@
 import React from "react";
-import Counter from "./Counter";
-import UseInfo from "./Info";
+import MovieLists from "./components/MovieLists.js";
 
 function App() {
-  return <UseInfo />;
+  return <MovieLists />;
 }
 
 export default App;
